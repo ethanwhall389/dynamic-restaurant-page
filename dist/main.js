@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("hello, world"),function(){const e=document.querySelector("#content");let t=document.createElement("div");t.classList.add("header");let n=document.createElement("h1");n.classList.add("heading"),n.textContent="Dyna-Mix Restaurant",t.appendChild(n),e.appendChild(t)}()})();
