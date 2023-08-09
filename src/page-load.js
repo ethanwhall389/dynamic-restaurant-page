@@ -18,7 +18,7 @@ function onLoad () {
 
     let image = document.createElement('img');
     image.classList.add('main-image');
-    image.setAttribute('src', 'bakery.jpg');
+    image.setAttribute('src', 'images/bakery.jpg');
     image.setAttribute('alt', 'A bakery');
     
     let info = document.createElement('p');
@@ -32,17 +32,17 @@ function onLoad () {
 
     ////
 
-    let footer = document.createElement('div');
-    footer.classList.add('footer');
+    // let footer = document.createElement('div');
+    // footer.classList.add('footer');
 
-    let footerContent = document.createElement('a');
-    footerContent.classList.add('footer-content');
-    footerContent.setAttribute('href', 'https://github.com/ethanwhall389/dynamic-restaurant-page');
-    footerContent.setAttribute('target', '_blank');
-    footerContent.textContent = 'Designed by Ethan Hall';
+    // let footerContent = document.createElement('a');
+    // footerContent.classList.add('footer-content');
+    // footerContent.setAttribute('href', 'https://github.com/ethanwhall389/dynamic-restaurant-page');
+    // footerContent.setAttribute('target', '_blank');
+    // footerContent.textContent = 'Designed by Ethan Hall';
 
-    contentDiv.appendChild(footer);
-    footer.appendChild(footerContent);
+    // contentDiv.appendChild(footer);
+    // footer.appendChild(footerContent);
 
 
 

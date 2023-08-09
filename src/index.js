@@ -1,5 +1,6 @@
 import onLoad from "./page-load";
 import loadMenu from "./menu";
+import loadContact from "./contact";
 
 onLoad();
 

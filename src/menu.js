@@ -11,6 +11,12 @@ function loadMenu () {
     contentDiv.appendChild(header);
     header.appendChild(heading);
 
+    let image = document.createElement('img');
+    image.classList.add('main-image');
+    image.setAttribute('src', 'images/menu.jpg');
+    image.setAttribute('alt', 'A set of pastries behind a glass counter');
+    header.appendChild(image);
+
     ////
 
     const menuContent = document.createElement('div');
